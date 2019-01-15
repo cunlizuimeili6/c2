@@ -39,6 +39,20 @@ int main(){
     scanf("%c",&x);
     }
     }
+    if(code==3){
+        char x;
+        if(index>0){
+            for(int v=0;v<index;v++){
+                printf("di %d gezifu %c\n",v+1,arr[v]);
+            }
+        }else{
+            printf("wu");
+        }
+        printf("jixu\n");
+        scanf("%c",&x);
+        scanf("%c",&x);
+    }
+
     }
     return 0;
 
